@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import style from './form.module.css'
+import Footer from './footer';
 
 
 function Login() {
@@ -49,13 +50,15 @@ function Login() {
             <u>Sign up here</u>
           </Link></h6>
 
+
+
       </form>
 
 
 
 
 
-
+<Footer/>
 
 
 

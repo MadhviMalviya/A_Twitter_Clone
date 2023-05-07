@@ -91,6 +91,7 @@ function SignIn() {
         </Link></h6>
 
             </form>
+            <Footer/>
         </div>
     )
 }
