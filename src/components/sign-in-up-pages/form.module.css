@@ -1,0 +1,19 @@
+.form {
+border-radius: 8px;
+    background-color: whitesmoke;
+    width: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.mainform {
+
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+
+}
