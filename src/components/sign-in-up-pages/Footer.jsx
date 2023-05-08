@@ -20,7 +20,7 @@ function Footer() {
 
             <div className={style.footbtn}>
                 <Button onClick={()=>{navigate('/signin')}} variant="outlined" sx={{ borderRadius: "50px", color: "black",border:'white' ,color: "white"}} >Sign up</Button>
-                <Button  onClick={()=>{navigate('/login')}} variant="contained" sx={{ borderRadius: "50px", backgroundColor: "whitesmoke", color: "black" }} >Log in</Button>
+                <Button  onClick={()=>{navigate('/login')}} variant="contained" sx={{ borderRadius: "50px", backgroundColor: "whitesmoke", color: "black" ,textTransform:'none'}} >Log in</Button>
             </div>
 
 
